@@ -13,7 +13,7 @@ if shapeSelection == 1 or shapeSelection == 2 or shapeSelection == 3 or shapeSel
         cirRad = (cirDiam/2)
         cirCircum = (pi*2*cirRad)
         cirArea = (pi)*(cirRad**2)
-        print("the circumfrence is" + str(cirCircum) + "the area of circle is" + str(cirArea) + " cm².")  
+        print("The circumfrence is" + str(cirCircum) + " cm." + " The area of circle is " + str(cirArea) + " cm².")  
     if shapeSelection == 2 :
         rectWidth = float(input("Enter width of rectangle"))
         rectLength = float(input("Enter length of rectangle"))
@@ -28,7 +28,7 @@ if shapeSelection == 1 or shapeSelection == 2 or shapeSelection == 3 or shapeSel
         triSideC = float(input("Enter the third length of the triangle"))
         triArea = ((triWidth*triLength)/2)
         triPerm = (triSideA + triSideB + triSideC)
-        print("The perimeter of the triangle is " + str(triPerm) + " cm." + "The traingle area is " + str(triArea) + " cm².")
+        print("The perimeter of the triangle is " + str(triPerm) + " cm." + " The traingle area is " + str(triArea) + " cm².")
     if shapeSelection == 4 :
         print("Have a great day, please come back again")    
         exit    
