@@ -17,9 +17,18 @@ if shapeSelection == 1 or shapeSelection == 2 or shapeSelection == 3 or shapeSel
     if shapeSelection == 2 :
         rectWidth = float(input("Enter width of rectangle"))
         rectLength = float(input("Enter length of rectangle"))
+        rectPerm = ((2*rectWidth)+(2*rectLength))
+        rectArea = (rectWidth*rectLength)
+        print("The perimeter of the rectangle is " + str(rectPerm) + " cm." + " The area of the rectangle is " + str(rectArea) + " cm².")
     if shapeSelection == 3 :
-        triWidth = float(input("Enter the triangle width"))
-        triLength = float(input("Enter the triangle length"))    
+        triWidth = float(input("Enter the triangle base"))
+        triLength = float(input("Enter the triangle height"))   
+        triSideA = float(input("Enter the first length of the triangle"))
+        triSideB = float(input("Enter the second length of the triangle"))
+        triSideC = float(input("Enter the third length of the triangle"))
+        triArea = ((triWidth*triLength)/2)
+        triPerm = (triSideA + triSideB + triSideC)
+        print("The perimeter of the triangle is " + str(triPerm) + " cm." + "The traingle area is " + str(triArea) + " cm².")
     if shapeSelection == 4 :
         print("Have a great day, please come back again")        
 else :
